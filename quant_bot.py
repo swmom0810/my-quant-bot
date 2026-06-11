@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # 1. 주식 데이터를 가져오는 도구(yfinance)를 설치해 줘!
-!pip install yfinance
+
 
 # 2. 설치한 도구를 지금부터 쓸 수 있게 불러와 줘!
 import yfinance as yf
