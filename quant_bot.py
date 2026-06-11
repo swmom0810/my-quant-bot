@@ -250,7 +250,7 @@ plt.grid(True)
 plt.show()
 
 # 1. 인공지능이 한글을 읽게 해주는 딥러닝 도구 설치
-!pip install transformers torch
+# !pip install transformers torch
 
 from transformers import pipeline
 
@@ -324,7 +324,7 @@ warnings.filterwarnings('ignore') # 보기 싫은 경고 메시지 숨기기
 # ⚙️ 1. 기본 설정 (여기를 본인 정보로 수정하세요!)
 # ==========================================
 TELEGRAM_TOKEN = "여기에_발급받은_토큰_입력"
-CHAT_ID = "여기에_확인한_방번호_입력"
+CHAT_ID = "8253636279"
 
 # 분석할 종목과 지표
 TICKERS = ['000660.KS', 'KRW=X', 'CL=F'] # SK하이닉스, 환율, 유가
